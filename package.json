@@ -1,0 +1,10 @@
+{
+  "name": "express-boilerplate",
+  "version": "1.0.0",
+  "description": "The boilerplate for express project using TypeScript in Visual Studio Code on macOS",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "tempus157",
+  "license": "ISC"
+}
