@@ -1,5 +1,5 @@
 import { Router } from "express";
-import { attachAPI } from "~/routes/config";
+import { attachAPI } from "~/routes";
 
 const router = Router();
 attachAPI(__filename, router);
