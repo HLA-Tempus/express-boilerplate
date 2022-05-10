@@ -1,3 +1,3 @@
 # Express.js Boilerplate
 
-<img width="287" alt="스크린샷 2022-05-11 오전 2 46 36" src="https://user-images.githubusercontent.com/49771744/167690687-0bfb8239-408f-4428-8673-1238c3a66649.png">
+<img width="288" alt="스크린샷 2022-05-11 오전 2 53 04" src="https://user-images.githubusercontent.com/49771744/167691692-dacf39fd-7e89-4f95-bcf0-2331dcc69048.png">
