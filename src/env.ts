@@ -8,4 +8,5 @@ function load(name: string) {
   return result;
 }
 
+// Add a environment variable as in the example below
 // export const example = load("EXAMPLE");
