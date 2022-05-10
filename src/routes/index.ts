@@ -2,12 +2,15 @@ import { Router } from "express";
 
 export const router = Router();
 
-export function attachAPI(filename: string, api: Router) {
-  const path = filename
+export function getURL(filename: string) {
+  return filename
     .split("/src/routes")[1]
     .replace("/index.ts", "")
     .replace(".ts", "");
-  router.use(path, api);
+}
+
+export function attachAPI(url: string, api: Router) {
+  router.use(url, api);
 }
 
 import "./api/index";

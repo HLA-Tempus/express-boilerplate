@@ -1,9 +1,12 @@
 import { Router } from "express";
-import { attachAPI } from "~/routes";
+import { attachAPI, getURL } from "~/routes";
 
-const router = Router();
-attachAPI(__filename, router);
+const api = Router();
+const url = getURL(__filename);
+attachAPI(url, api);
 
-router.get("/", async (req, res) => {
+api.get("/", async (req, res) => {
   return res.status(200).json("Hello, world!");
 });
+
+export default url;
